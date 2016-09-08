@@ -3,9 +3,10 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" android:weightSum="1">
-    <Button
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal" android:layout_weight="0.03">
-    </Button>
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/the_last_activity"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal"/>
 </LinearLayout>
