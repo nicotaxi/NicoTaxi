@@ -33,6 +33,5 @@ dependencies {
 
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
-
     androidTestCompile 'tools.fastlane:screengrab:0.5.1'
 }
