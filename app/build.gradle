@@ -31,8 +31,10 @@ dependencies {
     compile "com.android.support:appcompat-v7:${supportLibVersion}"
     compile "com.android.support:design:${supportLibVersion}"
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'tools.fastlane:screengrab:0.5.1'
 
     testCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
     androidTestCompile 'tools.fastlane:screengrab:0.5.1'
+    androidTestCompile 'org.hamcrest:hamcrest-library:1.3'
 }

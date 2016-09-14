@@ -7,19 +7,20 @@ import android.widget.Button;
 
 public class ActivityFour extends MainActivity{
 
-    @Override
+   /* @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_four);
 
         Button btnAct = (Button) findViewById(R.id.btnAct);
+        getScreen();
         btnAct.setOnClickListener(this);
-    }
+    }*/
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btnAct:
+            case R.id.btnAct4:
                 Intent intent = new Intent(this, ActivityFive.class);
                 startActivity(intent);
                 break;

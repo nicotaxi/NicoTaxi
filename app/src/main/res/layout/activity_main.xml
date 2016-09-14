@@ -7,6 +7,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/goBtn_text"
-            android:id="@+id/btnAct" android:layout_gravity="center_horizontal" android:layout_weight="0.03">
+            android:id="@+id/btnAct"
+            android:layout_gravity="center_horizontal" android:layout_weight="0.03">
+    </Button>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/goBtn_text2"
+            android:id="@+id/btnAct2"
+            android:layout_gravity="center_horizontal" android:layout_weight="0.03">
+    </Button>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/goBtn_text3"
+            android:id="@+id/btnAct3"
+            android:layout_gravity="center_horizontal" android:layout_weight="0.03">
+    </Button>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/goBtn_text4"
+            android:id="@+id/btnAct4"
+            android:layout_gravity="center_horizontal" android:layout_weight="0.03">
     </Button>
 </LinearLayout>

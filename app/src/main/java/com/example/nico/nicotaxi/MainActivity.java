@@ -10,10 +10,17 @@ import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import tools.fastlane.screengrab.Screengrab;
+import tools.fastlane.screengrab.UiAutomatorScreenshotStrategy;
 
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+
+    void setQqq(Qqq qqq){
+        System.out.println(qqq);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         Button btnAct = (Button) findViewById(R.id.btnAct);
+        getScreen();
         btnAct.setOnClickListener(this);
     }
     @Override
@@ -33,6 +41,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             default:
                 break;
         }
+    }
+
+    void getScreen() {
+        Screengrab.setDefaultScreenshotStrategy(new UiAutomatorScreenshotStrategy());
+        Screengrab.screenshot("screenshot");
     }
 
 }
